@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <Frame name="KingChatFrame" parent="UIParent" >
+        <Size x="600" y="250">
+        <Anchors>
+            <Anchor point="CENTER" relativePoint="CENTER" />
+        </Anchors>
+        
+        <Layers>
+            <Layer level="BACKGROUND">
+                <Texture name="$parentBackground" file="Interface\Icons\Spell_Shadow_ShadowWordPain" setAllPoints="true"/>
+            </Layer>
+        </Layers>
+    </Frame>
+</Ui>

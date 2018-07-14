@@ -10,3 +10,4 @@
 
 
 Localization/zhCn.lua
+KingChatFrameXML/KingChatFrame.xml
