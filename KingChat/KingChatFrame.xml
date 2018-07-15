@@ -108,6 +108,36 @@
               </Anchor>
             </Anchors>
           </Button>
+
+          <Frame name="demo">
+            <Size x="300" y="100"/>
+            <Anchors>
+              <Anchor point="TOPLEFT" relativeTo="$parentButton3" relativePoint="BOTTOMLEFT">
+                <Offset x="0" y="-1"/>
+              </Anchor>
+              <Anchor point="TOPRIGHT" relativeTo="$parentButton3" relativePoint="BOTTOMRIGHT">
+                <Offset x="0" y="-1"/>
+              </Anchor>
+            </Anchors>
+            <Layers>
+              <Layer>
+                <Texture file="Interface\TargetingFrame\UI-TargetingFrame-Flash">
+                  <Size x="100" y="100"/>
+                  <Color r="1.0" g="1.0" b="1.0"/>
+                  <Anchors>
+                    <Anchor point="CENTER"/>
+                  </Anchors>
+                </Texture>
+              </Layer>
+            </Layers>
+            
+          </Frame>
+
+
+
+
+
+
         </Frames>
       </Frame>
     </Frames>
