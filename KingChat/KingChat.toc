@@ -1,13 +1,12 @@
-## Interface:20300
+## Interface:70300
 ## Title:KingChat
 ## Author:kangze25@hotmail.com
 ## Version:0.0.1
 ## Notes-zhCN:聊天增强,用于替换有缘的聊天框体
-## LoadOnDemand:1
 ## SavedVariablesPerCharacter:historyMessage
 ## X-FQA-Website:http://www.kingchat.com
 ## X-Category:Chat
 
 
-Localization/zhCn.lua
-KingChatFrameXML/KingChatFrame.xml
+zhCn.lua
+KingChatFrame.xml
