@@ -1,4 +1,4 @@
-if GetLocale() == "zhCN" then
+﻿if GetLocale() == "zhCN" then
     if not KingChatLocalization then
         KingChatLocalization = {}
     end

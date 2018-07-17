@@ -1,4 +1,4 @@
-## Interface:70300
+﻿## Interface:70300
 ## Title:KingChat
 ## Author:kangze25@hotmail.com
 ## Version:0.0.1
