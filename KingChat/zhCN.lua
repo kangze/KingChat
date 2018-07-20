@@ -40,7 +40,7 @@ end
 --portrait:SetHeight(35) -- 头像高度 
 --portrait:SetPoint("LEFT", -36, 0) -- 头像的位置 
 --ff.Portrait = portrait 
-
+--
 frame = CreateFrame("Frame", "Hello", UIParent)
 frame:SetHeight(100)
 frame:SetWidth(100)
