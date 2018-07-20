@@ -1,0 +1,43 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+    <Frame name="KingChatPersonTempalte" virtual="true">
+      <Size x="300" y="100"/>
+      <Layers>
+        <Layer level="BACKGROUND">
+
+          <!--人物的头像放置的位置,现在只支持2d头像-->
+          <Texture name="$parentPlayerModel">
+            <Size>
+              <RelDimension x="0.4" y="1.0"/>
+            </Size>
+            <Anchors>
+              <Anchor point="LEFT" />
+            </Anchors>
+            <Color r="0.5" g="0.6" b="0.7"/>
+          </Texture>
+
+          <!--人物的游戏名称-->
+          <FontString name="@parentText" text="月漫天-迦顿">
+            <Size>
+              <RelDimension x="0.6" y="0.7" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOPLEFT" relativePoint="TOPRIGHT" relativeTo="$parentPlayerModel" />
+            </Anchors>
+          </FontString>
+
+          <Texture name="$parentTalentInfo">
+            <Size>
+              <RelDimension x="0.6" y="0.3" />
+            </Size>
+            <Anchors>
+              <Anchor point="TOP" relativePoint="BOTTOM" relativeTo="$parentText" />
+            </Anchors>
+            <Color r="0.5" g="0.6" b="0.7"/>
+          </Texture>
+
+        </Layer>
+      </Layers>
+    </Frame>
+</Ui>
