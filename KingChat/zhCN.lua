@@ -22,7 +22,7 @@ end
 --p1:SetPosition(0, 0, 0)
 --p1:ClearModel()
 --p1:SetUnit("player")
- 
+
 --local p2 = CreateFrame("PlayerModel", "p2", UIParent)
 --p2:SetSize(128, 128)
 --p2:SetPoint("LEFT", UIParent, "CENTER", 64, 0)
@@ -33,13 +33,13 @@ end
 --p2:SetUnit("player")
 --p2:SetFacing(-(math.pi / 2))
 --local ff = CreateFrame("Frame");
---local portrait = ff:CreateTexture(nil, "OVERLAY") 
---portrait.type = "2D" 
---portrait:SetTexCoord(0.14644660941, 0.85355339059, 0.14644660941, 0.85355339059) 
---portrait:SetWidth(35) -- 头像宽度 
---portrait:SetHeight(35) -- 头像高度 
---portrait:SetPoint("LEFT", -36, 0) -- 头像的位置 
---ff.Portrait = portrait 
+--local portrait = ff:CreateTexture(nil, "OVERLAY")
+--portrait.type = "2D"
+--portrait:SetTexCoord(0.14644660941, 0.85355339059, 0.14644660941, 0.85355339059)
+--portrait:SetWidth(35) -- 头像宽度
+--portrait:SetHeight(35) -- 头像高度
+--portrait:SetPoint("LEFT", -36, 0) -- 头像的位置
+--ff.Portrait = portrait
 --
 --frame = CreateFrame("Frame", "Hello", UIParent)
 --frame:SetHeight(100)
@@ -52,5 +52,9 @@ end
 --img1:SetPoint("TOPLEFT", 0, 0)
 --SetPortraitTexture(img1, "player")
 
-item= CreateFrame("Button","item",UIParent,"PersonItem");
+item = CreateFrame("Button", "item", KingChatFrame.cates, "PersonItem")
+item:SetPoint("TOPLEFT");
+KingChatFramePersonItemMixin.SetText(item,"测试");
 --print(item.Selection:GetWidth());
+
+print(KingChatFrame.cates)

@@ -7,7 +7,7 @@
       <OnDragStart>self:StartMoving();</OnDragStart>
       <OnDragStop>self:StopMovingOrSizing();</OnDragStop>
     </Scripts>
-    <Size x="600" y="250"/>
+    <Size x="750" y="400"/>
     <Anchors>
       <Anchor point="CENTER" relativePoint="CENTER" />
     </Anchors>
@@ -47,7 +47,7 @@
 
     <!--define other frame -->
     <Frames>
-      <Frame name="KingChatFramePersonFrame" inherits="ChatConfigBoxTemplate">
+      <Frame parentKey="cates" inherits="ChatConfigBoxTemplate">
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset x="12" y="-47"/>
@@ -67,78 +67,6 @@
             </FontString>
           </Layer>
         </Layers>
-        <Frames>
-          <Button name="$parentButton1" inherits="ConfigCategoryButtonTemplate" text="CHAT" id="1">
-            <Anchors>
-              <Anchor point="TOPLEFT">
-                <Offset x="5" y="-7"/>
-              </Anchor>
-              <Anchor point="TOPRIGHT">
-                <Offset x="-5" y="-7"/>
-              </Anchor>
-            </Anchors>
-          </Button>
-          <Button name="$parentButton2" inherits="ConfigCategoryButtonTemplate" text="测试" id="2">
-            <Anchors>
-              <Anchor point="TOPLEFT" relativeTo="$parentButton1" relativePoint="BOTTOMLEFT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-              <Anchor point="TOPRIGHT" relativeTo="$parentButton1" relativePoint="BOTTOMRIGHT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-            </Anchors>
-          </Button>
-          <Button name="$parentButton3" inherits="ConfigCategoryButtonTemplate" text="GLOBAL_CHANNELS" id="3">
-            <Anchors>
-              <Anchor point="TOPLEFT" relativeTo="$parentButton2" relativePoint="BOTTOMLEFT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-              <Anchor point="TOPRIGHT" relativeTo="$parentButton2" relativePoint="BOTTOMRIGHT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-            </Anchors>
-          </Button>
-          <Button name="$parentButton4" inherits="ConfigCategoryButtonTemplate" text="OTHER" id="4">
-            <Anchors>
-              <Anchor point="TOPLEFT" relativeTo="$parentButton3" relativePoint="BOTTOMLEFT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-              <Anchor point="TOPRIGHT" relativeTo="$parentButton3" relativePoint="BOTTOMRIGHT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-            </Anchors>
-          </Button>
-
-          <Frame name="demo">
-            <Size x="300" y="100"/>
-            <Anchors>
-              <Anchor point="TOPLEFT" relativeTo="$parentButton3" relativePoint="BOTTOMLEFT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-              <Anchor point="TOPRIGHT" relativeTo="$parentButton3" relativePoint="BOTTOMRIGHT">
-                <Offset x="0" y="-1"/>
-              </Anchor>
-            </Anchors>
-            <Layers>
-              <Layer>
-                <Texture file="Interface\TargetingFrame\UI-TargetingFrame-Flash">
-                  <Size x="100" y="100"/>
-                  <Color r="1.0" g="1.0" b="1.0"/>
-                  <Anchors>
-                    <Anchor point="CENTER"/>
-                  </Anchors>
-                </Texture>
-              </Layer>
-            </Layers>
-            
-          </Frame>
-
-
-
-
-
-
-        </Frames>
       </Frame>
     </Frames>
   </Frame>
