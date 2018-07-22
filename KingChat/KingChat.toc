@@ -8,5 +8,6 @@
 ## X-Category:Chat
 
 
-zhCn.lua
 KingChatFrame.xml
+KingChatFramePersonItem.xml
+zhCn.lua

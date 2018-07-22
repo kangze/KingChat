@@ -41,13 +41,16 @@ end
 --portrait:SetPoint("LEFT", -36, 0) -- 头像的位置 
 --ff.Portrait = portrait 
 --
-frame = CreateFrame("Frame", "Hello", UIParent)
-frame:SetHeight(100)
-frame:SetWidth(100)
-frame:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
+--frame = CreateFrame("Frame", "Hello", UIParent)
+--frame:SetHeight(100)
+--frame:SetWidth(100)
+--frame:SetPoint("CENTER", UIParent, "CENTER", 0, 0)
 
-img1 = frame:CreateTexture(nil, "BACKGROUND")
-img1:SetHeight(60)
-img1:SetWidth(60)
-img1:SetPoint("TOPLEFT", 0, 0)
-SetPortraitTexture(img1, "player")
+--img1 = frame:CreateTexture(nil, "BACKGROUND")
+--img1:SetHeight(60)
+--img1:SetWidth(60)
+--img1:SetPoint("TOPLEFT", 0, 0)
+--SetPortraitTexture(img1, "player")
+
+item= CreateFrame("Button","item",UIParent,"PersonItem");
+--print(item.Selection:GetWidth());
